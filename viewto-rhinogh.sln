@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Local", "Local", "{02F87076-57F1-4F8D-AB4B-AD9FFFF66E76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewToRhinoGh", "ViewToRhinoGh\ViewToRhinoGh.csproj", "{646E8256-BA77-41C7-9807-C1F69C655775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewObjects", "..\..\viewto-objects\Objects\ViewObjects\ViewObjects.csproj", "{2D5861EA-4252-48E7-81EE-918FC05279BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewToLib", "..\..\viewto-library\ViewToLib\ViewToLib.csproj", "{170BC705-E4C3-47CE-9341-864586C9BD65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{646E8256-BA77-41C7-9807-C1F69C655775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646E8256-BA77-41C7-9807-C1F69C655775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646E8256-BA77-41C7-9807-C1F69C655775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646E8256-BA77-41C7-9807-C1F69C655775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D5861EA-4252-48E7-81EE-918FC05279BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5861EA-4252-48E7-81EE-918FC05279BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5861EA-4252-48E7-81EE-918FC05279BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5861EA-4252-48E7-81EE-918FC05279BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170BC705-E4C3-47CE-9341-864586C9BD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170BC705-E4C3-47CE-9341-864586C9BD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170BC705-E4C3-47CE-9341-864586C9BD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170BC705-E4C3-47CE-9341-864586C9BD65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D5861EA-4252-48E7-81EE-918FC05279BA} = {02F87076-57F1-4F8D-AB4B-AD9FFFF66E76}
+		{170BC705-E4C3-47CE-9341-864586C9BD65} = {02F87076-57F1-4F8D-AB4B-AD9FFFF66E76}
+	EndGlobalSection
+EndGlobal
