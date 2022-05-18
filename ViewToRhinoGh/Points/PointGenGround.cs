@@ -164,7 +164,7 @@ namespace ViewTo.RhinoGh.Points
       ConnectorInfo.CATEGORY, ConnectorInfo.Nodes.CLOUD)
     { }
 
-    protected override Bitmap Icon => new Bitmap(Resources.GeneratePointGround);
+    protected override Bitmap Icon => new Bitmap(Icons.GeneratePointGround);
 
     public override Guid ComponentGuid => new Guid("c1c4f971-2b19-43b5-b753-606e85aa323e");
     #endregion

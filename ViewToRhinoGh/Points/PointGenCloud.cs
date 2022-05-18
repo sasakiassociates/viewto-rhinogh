@@ -116,7 +116,7 @@ namespace ViewTo.RhinoGh.Points
       "ViewTo", "Point")
     { }
 
-    protected override Bitmap Icon => new Bitmap(Resources.GeneratePointsCloud);
+    protected override Bitmap Icon => new Bitmap(Icons.GeneratePointsCloud);
 
     public override Guid ComponentGuid => new Guid("12e9f6ab-4e35-4076-b17f-74fc42e2c3f2");
     #endregion

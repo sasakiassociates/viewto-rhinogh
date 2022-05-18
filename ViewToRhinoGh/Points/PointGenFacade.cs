@@ -20,7 +20,7 @@ namespace ViewTo.RhinoGh.Points
       ConnectorInfo.CATEGORY, ConnectorInfo.Nodes.CLOUD)
     { }
 
-    protected override Bitmap Icon => new Bitmap(Resources.GeneratePointFacade);
+    protected override Bitmap Icon => new Bitmap(Icons.GeneratePointFacade);
 
     public override Guid ComponentGuid =>
       new Guid("88e7a8a0-3fa1-4ed3-8e66-a0a9237a567a");

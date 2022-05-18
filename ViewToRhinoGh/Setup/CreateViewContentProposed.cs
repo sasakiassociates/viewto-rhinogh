@@ -23,7 +23,7 @@ namespace ViewTo.RhinoGh.Setup
 
     public override Guid ComponentGuid => new Guid("b6cd7e15-8867-4269-9869-6245f32b62ea");
     
-    protected override Bitmap Icon => new Bitmap(Resources.CreateContentProposed);
+    protected override Bitmap Icon => new Bitmap(Icons.CreateContentProposed);
 
     private int _iName, _iData;
     protected override void RegisterInputParams(GH_InputParamManager pManager)
@@ -42,7 +42,7 @@ namespace ViewTo.RhinoGh.Setup
 
     protected override void SolveInstance(IGH_DataAccess DA)
     {
-      GH_String tempName = null;
+      GH_String? tempName = null;
       DA.GetData(_iName, ref tempName);
 
       var items = new List<GH_Mesh>();

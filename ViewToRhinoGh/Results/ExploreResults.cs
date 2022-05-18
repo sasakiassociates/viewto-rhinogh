@@ -22,7 +22,7 @@ namespace ViewTo.RhinoGh.Results
 
 		public override Guid ComponentGuid => new Guid("01ffe845-0a7b-4bf8-9d35-48f234fc8cfc");
 
-		protected override Bitmap Icon => new Bitmap(Resources.ExploreResults);
+		protected override Bitmap Icon => new Bitmap(Icons.ExploreResults);
 
 		private int _iObj, _iTarget, _iStageInput, _iScoreRange, _iColors, _iSize;
 		protected override void RegisterInputParams(GH_InputParamManager pManager)

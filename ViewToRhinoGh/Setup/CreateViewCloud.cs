@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using Grasshopper.Kernel;
 using Grasshopper.Kernel.Types;
 using ViewTo.RhinoGh.Goo;
+using ViewTo.RhinoGh.Properties;
 using Pipe = ViewTo.RhinoGh.ConnectorPipe;
 
 namespace ViewTo.RhinoGh.Setup
@@ -15,7 +17,7 @@ namespace ViewTo.RhinoGh.Setup
       ConnectorInfo.CATEGORY, ConnectorInfo.Nodes.CLOUD)
     { }
 
-    // protected override Bitmap Icon => new Bitmap(Resources.CreateViewCloud);
+    // protected override Bitmap Icon => new Bitmap(Icons.GeneratePointsCloud);
 
     
     public override Guid ComponentGuid => new Guid("E4E4F6ED-2071-4F2E-9F9B-F687180143BF");

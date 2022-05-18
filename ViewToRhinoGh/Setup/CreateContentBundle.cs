@@ -16,7 +16,8 @@ namespace ViewTo.RhinoGh.Setup
     { }
 
     public override Guid ComponentGuid => new Guid("19AA924E-E52C-455F-9D6F-3CFBDEA0C9CE");
-    protected override Bitmap Icon => new Bitmap(Resources.CreateContentBundle);
+    
+    protected override Bitmap Icon => new Bitmap(Icons.CreateContentBundle);
 
     private int _iTargets, _iBlockers, _iDesigns;
 

@@ -62,7 +62,7 @@ namespace ViewTo.RhinoGh
       };
     }
 
-    public static TContent Prime<TContent>(IEnumerable<GH_Mesh> meshes, GH_String name) where TContent : IViewContent, new()
+    public static TContent Prime<TContent>(IEnumerable<GH_Mesh> meshes, GH_String? name) where TContent : IViewContent, new()
     {
       // Init();
 

@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using Grasshopper.Kernel;
 using ViewObjects;
 using ViewObjects.Cloud;
 using ViewObjects.Viewer;
 using ViewTo.RhinoGh.Goo;
+using ViewTo.RhinoGh.Properties;
 
 namespace ViewTo.RhinoGh.Setup
 {
@@ -22,7 +24,7 @@ namespace ViewTo.RhinoGh.Setup
 
     public override Guid ComponentGuid => new Guid("1A51EF3A-A5CB-4F58-B509-B98203003861");
 
-    // protected override Bitmap Icon => new Bitmap(Resources.CreateViewerBundle);
+    // protected override Bitmap Icon => new Bitmap(Icons.CreateViewerLayout);
 
     protected override void RegisterInputParams(GH_InputParamManager pManager)
     {

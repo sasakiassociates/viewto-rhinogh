@@ -23,7 +23,7 @@ namespace ViewTo.RhinoGh.Setup
     { }
 
     
-    protected override Bitmap Icon => new Bitmap(Resources.CreateContentTarget);
+    protected override Bitmap Icon => new Bitmap(Icons.CreateContentTarget);
 
     public override Guid ComponentGuid => new Guid("b686629d-ccbb-4534-96f0-ca33550bbff7");
     #endregion
@@ -46,7 +46,7 @@ namespace ViewTo.RhinoGh.Setup
 
     protected override void SolveInstance(IGH_DataAccess DA)
     {
-      GH_String tempName = null;
+      GH_String? tempName = null;
       DA.GetData(_iName, ref tempName);
 
       var items = new List<GH_Mesh>();

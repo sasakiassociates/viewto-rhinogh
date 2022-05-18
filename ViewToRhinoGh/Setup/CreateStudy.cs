@@ -26,7 +26,7 @@ namespace ViewTo.RhinoGh.Setup
 
     public override Guid ComponentGuid => new Guid("328e44a9-91ba-450d-a40c-9da3bb7e0afc");
 
-    protected override Bitmap Icon => new Bitmap(Resources.CreateViewStudy);
+    protected override Bitmap Icon => new Bitmap(Icons.CreateViewStudy);
    
     private int _iName, _iCloud, _iContent, _iRigParams;
     protected override void RegisterInputParams(GH_InputParamManager pManager)
