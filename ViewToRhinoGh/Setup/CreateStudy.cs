@@ -41,6 +41,7 @@ namespace ViewTo.RhinoGh.Setup
       pManager.AddGenericParameter("Viewer Bundle", "V", "Viewer Bundles for Study", GH_ParamAccess.list);
       _iRigParams = i;
     }
+    
     protected override void RegisterOutputParams(GH_OutputParamManager pManager)
     {
       pManager.AddParameter(new ViewObjParam("ViewObj", "V", "View Obj as ViewObj Parameter Object", GH_ParamAccess.item));

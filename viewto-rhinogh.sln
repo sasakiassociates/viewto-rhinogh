@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewToRhinoGh", "ViewToRhin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewObjects", "..\..\viewto-objects\Objects\ViewObjects\ViewObjects.csproj", "{2D5861EA-4252-48E7-81EE-918FC05279BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewToLib", "..\..\viewto-library\ViewToLib\ViewToLib.csproj", "{170BC705-E4C3-47CE-9341-864586C9BD65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewToCore", "..\..\viewto-library\ViewToCore\ViewToCore.csproj", "{8E7608AB-81E2-43A4-98C9-2DD2B701C0BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,13 +22,13 @@ Global
 		{2D5861EA-4252-48E7-81EE-918FC05279BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5861EA-4252-48E7-81EE-918FC05279BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5861EA-4252-48E7-81EE-918FC05279BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{170BC705-E4C3-47CE-9341-864586C9BD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{170BC705-E4C3-47CE-9341-864586C9BD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{170BC705-E4C3-47CE-9341-864586C9BD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{170BC705-E4C3-47CE-9341-864586C9BD65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7608AB-81E2-43A4-98C9-2DD2B701C0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7608AB-81E2-43A4-98C9-2DD2B701C0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7608AB-81E2-43A4-98C9-2DD2B701C0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7608AB-81E2-43A4-98C9-2DD2B701C0BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2D5861EA-4252-48E7-81EE-918FC05279BA} = {02F87076-57F1-4F8D-AB4B-AD9FFFF66E76}
-		{170BC705-E4C3-47CE-9341-864586C9BD65} = {02F87076-57F1-4F8D-AB4B-AD9FFFF66E76}
+		{8E7608AB-81E2-43A4-98C9-2DD2B701C0BE} = {02F87076-57F1-4F8D-AB4B-AD9FFFF66E76}
 	EndGlobalSection
 EndGlobal

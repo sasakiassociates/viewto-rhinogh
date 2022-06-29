@@ -102,6 +102,10 @@
     <Compile Include="ViewToRhinoGhInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\viewto-library\ViewToCore\ViewToCore.csproj">
+      <Project>{8e7608ab-81e2-43a4-98c9-2dd2b701c0be}</Project>
+      <Name>ViewToCore</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\viewto-library\ViewToLib\ViewToLib.csproj">
       <Project>{170bc705-e4c3-47ce-9341-864586c9bd65}</Project>
       <Name>ViewToLib</Name>
